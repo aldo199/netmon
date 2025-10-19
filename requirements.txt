@@ -1,0 +1,9 @@
+# Python dependencies for build/test tooling
+
+# C++ dependency manager
+conan>=2.0.0
+
+# For Python-based testing or automation
+pytest>=8.0.0
+requests>=2.31.0
+
