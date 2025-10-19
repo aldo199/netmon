@@ -1,0 +1,93 @@
+# ============================================
+# Build system (CMake, Make, Ninja)
+# ============================================
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/install_manifest.txt
+/compile_commands.json
+/cmake_install.cmake
+
+# ============================================
+# Conan package manager
+# ============================================
+/conan.lock
+/conanbuildinfo.*
+/conanfile.txt.old
+/conanfile.py.old
+/conaninfo.txt
+/conan/
+
+# ============================================
+# Binaries and libraries
+# ============================================
+*.a
+*.lib
+*.la
+*.lo
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+# ============================================
+# Logs and temporary files
+# ============================================
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# ============================================
+# Google Test build outputs
+# ============================================
+/test/build/
+/tests/build/
+/test/bin/
+/tests/bin/
+/test/*.o
+/tests/*.exe
+/tests/*.out
+
+# ============================================
+# Python (for test scripts or CI helpers)
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pytest_cache/
+*.coverage
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.tox/
+
+# ============================================
+# IDE / Editor-specific files
+# ============================================
+# VS Code
+.vscode/
+# CLion / JetBrains
+.idea/
+# VS
+.vs/
+# Sublime
+*.sublime-workspace
+*.sublime-project
+# Others
+*.user
+*.workspace
+*.project
+
+# ============================================
+# OS-generated files
+# ============================================
+.DS_Store
+Thumbs.db
+
