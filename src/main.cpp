@@ -1,9 +1,10 @@
-#include <iostream>
 #include "netmon.h"
+#include <spdlog/spdlog.h>
 
 int main() {
-    std::cout << "NetMon starting..." << std::endl;
+    spdlog::info("NetMon starting...");
     print_system_info();
+    spdlog::info("NetMon finished successfully.");
     return 0;
 }
 
